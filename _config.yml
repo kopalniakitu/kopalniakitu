@@ -1,0 +1,15 @@
+url: "https://kopalniakitu.pl" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+title: "Kopalnia Kitu" # the name of your site, e.g. ACME Corp.
+description: "Kadr z filmu Barei. Trochę śmieszno, trochę straszno."
+twitter_username: "KopalniaKitu"
+
+sass:
+  style: compressed
+
+plugins:
+  - jekyll-tidy
+
+collections:
+  jobs:
+    output: true
