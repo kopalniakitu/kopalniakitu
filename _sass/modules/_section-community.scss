@@ -1,0 +1,30 @@
+.section-community {
+  margin-bottom: 80px;
+
+  .box-columns {
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .box-title {
+    margin-bottom: 62px;
+
+    strong {
+      font-weight: inherit;
+      color: $green;
+    }
+  }
+
+  &-image {
+    max-width: 100%;
+  }
+
+  @include media(">=tablet") {
+  }
+
+  @include media(">=desktop") {
+    &-image {
+      max-width: 430px;
+    }
+  }
+}

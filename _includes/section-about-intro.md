@@ -1,0 +1,5 @@
+# O nas
+
+Czas w którym przyszło nam żyć, jest niczym kadr z filmu Barei. Trochę śmieszny, a trochę straszny. Czas, w którym, z altanek śmietnikowych w kilka minut znikają stare meble, te które dotychczas zalegały do czasu przyjazdu śmieciarek do odbioru gabarytów. W lasach przemykają nie tylko miłośnicy grzybów, ale także zbieracze spróchniałych resztek po wycinkach drzew i kultowego już chrustu. Kupiony na składzie węgiel, po deszczu odkrywa swoją prawdziwą kamienną twarz, a inny się… nie pali. No tego jeszcze nie grali :)
+
+Politycy mamią nas troską o środowisko naturalne i czyste powietrze podczas wyborów, a przez wiele lat dostajemy rozwiązania pośrednie made by pan Sasin, gdzie bez żadnego trybu unosi się w powietrzu duch starego kalosza, co skończył w piecu. Bo przecież prezes wszystkich prezesów stwierdził że można palić „wszystkim”\*. Idąc na spacer jesienią zakrywamy nasze nosy, żeby nie wdychać finalnego skutku tych słów, a co miesiąc płacąc faktury za energię nabijamy kabzę tłustym kotom co zasiadają w państwowych spółkach, prezesom z partyjnych nominacji, co wykonują zadania walcząc z wiatrakami, niczym dzielny Don Kichot.

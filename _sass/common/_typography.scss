@@ -1,0 +1,37 @@
+body {
+  font-weight: $base-font-weight;
+  font-size: $base-font-size-phone;
+  line-height: $base-line-height;
+  font-family: $base-font-family;
+  color: $base-text-color;
+  @include font-smoothing(on);
+
+  @include media(">=tablet") {
+    font-size: $base-font-size-tablet;
+  }
+
+  @include media(">=desktop") {
+    font-size: $base-font-size-desktop;
+  }
+}
+
+p,
+ol,
+ul {
+  &:not(:last-child) {
+    margin-bottom: #{$base-line-height}em;
+  }
+}
+
+ul {
+  list-style: initial;
+
+  li {
+    margin-left: 20px;
+  }
+}
+
+b,
+strong {
+  font-weight: 700;
+}

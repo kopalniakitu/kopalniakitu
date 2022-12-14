@@ -1,0 +1,53 @@
+{% capture title %}{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}{% endcapture %}
+{% capture description %}{% if page.excerpt %}{{ page.excerpt | strip_html }}{% elsif page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}{% endcapture %}
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta charset="utf-8" />
+  <title>{{ title }}</title>
+  <meta name="description" content="{{ description }}" />
+  <meta property="og:site_name" content="{{ title }}">
+  <meta property="og:title" content="{{ title }}">
+  <meta property="og:type" content="{% if page.title %}article{% else %}website {% endif %}">
+  <meta property="og:description" content="{{ description }}">
+  {% if page.url %}
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+  {% endif %}
+  {% if page.date %}
+    <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
+  {% endif %}
+  {% if page.image %}
+    <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/assets/img/{{ page.image }}">
+  {% endif %}
+  <meta name="twitter:site" content="@{{ site.twitter_username }}">
+  <meta name="twitter:title" content="{{ title }}">
+  <meta name="twitter:description" content="{{ description }}">
+  {% if page.image %}
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="{{ site.url }}{{ site.baseurl }}/assets/img/{{ page.image }}">
+  {% endif %}
+  <meta name="facebook-domain-verification" content="emgow6nhji9o6nj2k5y9vzcx140gc4" />
+  <link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/assets/css/main.css?{{ site.time | date: '%s' }}" />
+  <link rel="icon" type="image/png" href="{{ site.url }}{{ site.baseurl }}/assets/img/favicon.png" />
+  <link rel="apple-touch-icon" sizes="512x512" href="{{ site.url }}{{ site.baseurl }}/assets/img/favicon-512.png" />
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-7MFEHYEPDB"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-7MFEHYEPDB');
+  </script>
+
+  <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+  
+  <!-- temporary -->
+  <style>
+    @font-face{font-family:"Avenir Next wf";src:url("/assets/fonts/AvenirNextMedium.woff2") format("woff2");font-weight:500;font-style:normal}
+    @font-face{font-family:"Avenir Next wf";src:url("/assets/fonts/AvenirNextMediumItalic.woff2") format("woff2");font-weight:500;font-style:italic}
+    /* @font-face{font-family:"Avenir Next wf";src:url("/assets/fonts/AvenirNextDemiBold.woff2") format("woff2");font-weight:600;font-style:normal} */
+    @font-face{font-family:"Avenir Next wf";src:url("/assets/fonts/AvenirNextBold.woff2") format("woff2");font-weight:700;font-style:normal}
+    @font-face{font-family:"Avenir Next wf";src:url("/assets/fonts/AvenirNextHeavy.woff2") format("woff2");font-weight:900;font-style:normal}
+    @font-face{font-family:"Avenir Next wf";src:url("/assets/fonts/AvenirNextHeavyItalic.woff2") format("woff2");font-weight:900;font-style:italic}
+  </style>
+</head>

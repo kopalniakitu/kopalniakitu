@@ -1,0 +1,78 @@
+.section-about {
+  margin-bottom: 50px;
+
+  &-video-wrapper {
+    margin: 0 -20px;
+  }
+
+  &-video {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  &-button-wrapper {
+    text-align: right;
+  }
+
+  h1 {
+    @extend .box-title;
+    margin-bottom: 45px;
+    position: relative;
+
+    &::before {
+      content: "";
+      opacity: 0.8;
+      width: 100px;
+      height: 99px;
+      position: absolute;
+      top: -10px;
+      left: 0;
+      background: url(../img/underline.png) no-repeat 0 100%;
+      pointer-events: none;
+    }
+  }
+
+  a:not(.button) {
+    text-decoration: underline;
+
+    &:hover {
+      color: $green;
+    }
+  }
+
+  @include media("<tablet") {
+    &-button-wrapper {
+      margin-top: 45px;
+    }
+  }
+
+  @include media(">=tablet") {
+    margin-bottom: 60px;
+
+    .box-column {
+      &:first-child {
+        width: 50.183486%;
+        flex-shrink: 0;
+      }
+
+      &:last-child {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-top: 100px;
+      }
+    }
+
+    &.-full {
+      .box-column {
+        &:first-child {
+          width: 65%;
+        }
+      }
+    }
+  }
+
+  @include media(">=desktop") {
+    margin-bottom: 80px;
+  }
+}

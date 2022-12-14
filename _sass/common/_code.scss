@@ -1,0 +1,38 @@
+div[class^="language-"] {
+  &:not(:last-child) {
+    margin-bottom: #{$base-line-height}em;
+  }
+}
+
+pre.highlight,
+code {
+  background: rgba($base-text-color, 0.05);
+  font-size: 0.95em;
+  color: $base-text-color;
+  font-family: monospace;
+
+  code {
+    padding: 0;
+    background: none;
+    border-radius: 0;
+    font-size: 1em;
+  }
+}
+
+pre.highlight {
+  display: block;
+  overflow: auto;
+  padding: 15px 20px;
+  border-radius: 10px;
+}
+
+code {
+  padding: 5px 10px;
+  border-radius: 3px;
+}
+
+.highlight {
+  .go {
+    opacity: 0.6;
+  }
+}

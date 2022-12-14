@@ -1,0 +1,37 @@
+.footer {
+  margin-top: 120px;
+  padding-bottom: 55px;
+  text-align: center;
+
+  &-logo {
+    width: 120px;
+  }
+
+  &-copyright {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    font-size: 14px;
+    color: #646464;
+
+    p + p {
+      margin-left: 25px;
+    }
+
+    a {
+      text-decoration: underline;
+
+      &:hover {
+        color: $base-text-color;
+      }
+    }
+  }
+
+  @include media(">=tablet") {
+    margin-top: 195px;
+
+    &-logo {
+      width: 155px;
+    }
+  }
+}

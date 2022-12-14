@@ -1,0 +1,128 @@
+.button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  overflow: hidden;
+  padding: 0 24px;
+  background-color: $dark-grey;
+  // border: 1px solid rgba($green, 0.2);
+  border-radius: 5px;
+  box-shadow: 0 2px 6px rgba(#000, 0.1);
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1;
+  white-space: nowrap;
+  letter-spacing: 0.05em;
+  color: $white;
+  user-select: none;
+  text-decoration: none;
+  transition: 0.15s;
+
+  &-text {
+    position: relative;
+    top: 1px;
+  }
+
+  &-icon {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+    margin-right: -14px;
+    background-color: $light-green;
+    border-radius: 12px;
+    transition: 0.15s;
+
+    svg {
+      // transition: inherit;
+    }
+  }
+
+  &.-facebook {
+    background-color: #346ee1;
+
+    .button-icon {
+      align-items: flex-end;
+      background-color: $white;
+      // color: #346ee1;
+
+      svg {
+        position: relative;
+        top: 1px;
+      }
+    }
+
+    &:hover {
+      background-color: #244890;
+    }
+  }
+
+  &.-link {
+    // padding: 0;
+    // background: none;
+    // border: none;
+    // color: $green;
+
+    // &:hover {
+    //   color: $light-green;
+
+    //   .feather {
+    //     opacity: 1;
+    //   }
+    // }
+  }
+
+  &:hover {
+    background-color: $green;
+
+    .button-icon {
+      // transform: translateX(5px);
+      background-color: $white;
+      color: $green;
+    }
+  }
+
+  @include media("<tablet") {
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  @include media(">=tablet") {
+    // height: 50px;
+    // padding: 0 35px;
+    // font-size: 12px;
+  }
+}
+
+.button-back-wrapper {
+  margin-bottom: -60px;
+  text-align: center;
+}
+
+.button-back {
+  display: inline-flex;
+  align-items: center;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1;
+  letter-spacing: 0.05em;
+  color: #808080;
+  transition: 0.15s;
+
+  svg {
+    width: 18px;
+    margin-right: 10px;
+    position: relative;
+    top: -2px;
+  }
+
+  &:hover {
+    color: $base-text-color;
+  }
+}

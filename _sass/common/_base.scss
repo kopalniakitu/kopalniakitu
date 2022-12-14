@@ -1,0 +1,32 @@
+// Layout
+$container-width: 1240px;
+$side-padding-phone: 20px;
+$side-padding-tablet: 35px;
+$side-padding-desktop: 50px;
+
+// Color Scheme
+$white: #fff;
+$black: #000;
+$dark-grey: #222;
+$green: #80b62b;
+$light-green: #98cc47;
+$base-text-color: $dark-grey;
+$base-bg-color: $white;
+
+// Typography
+$base-font-weight: 500;
+$base-font-size-phone: 15px;
+$base-font-size-tablet: 17px;
+$base-font-size-desktop: 17px;
+$base-line-height: 1.41;
+$base-font-family: "Avenir Next wf", georgia, sans-serif;
+
+body {
+  background: $base-bg-color;
+  cursor: default;
+}
+
+::selection {
+  background: $black;
+  color: $white;
+}

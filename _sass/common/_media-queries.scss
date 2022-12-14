@@ -1,0 +1,23 @@
+.hidden-lt-desktop {
+  @include media("<desktop") {
+    display: none !important;
+  }
+}
+
+.hidden-gte-desktop {
+  @include media(">=desktop") {
+    display: none !important;
+  }
+}
+
+@mixin media-touch {
+  @media (hover: none) and (pointer: coarse) {
+    @content;
+  }
+}
+
+@mixin media-pointer {
+  @media (hover: hover) and (pointer: fine) {
+    @content;
+  }
+}

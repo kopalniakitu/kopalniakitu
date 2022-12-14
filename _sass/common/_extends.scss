@@ -1,0 +1,18 @@
+%plain-list {
+  padding-left: 0;
+  list-style: none;
+}
+
+%plain-button {
+  display: inline-block;
+  padding: 0;
+  background: none;
+  border: none;
+  text-align: center;
+  color: currentColor;
+  font: inherit;
+  user-select: none;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  transition: 0.15s;
+}

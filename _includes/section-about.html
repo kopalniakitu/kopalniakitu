@@ -1,0 +1,27 @@
+{% capture content %}{% include section-about.md %}{% endcapture %}
+
+<section class="section-about -full">
+  <div class="container">
+    <div class="box">
+      <div class="box-columns">
+        <div class="box-column">
+          {{ content | markdownify }}
+        </div>
+        <div class="box-column">
+          <!--
+          <div class="section-about-video-wrapper">
+            <video class="section-about-video" src="{{ site.baseurl }}/assets/video/clip2.mp4" muted playsinline loop autoplay></video>
+          </div>
+          -->
+          <img class="section-about-image" src="{{ site.baseurl }}/assets/img/sejm.png" alt="" loading="lazy">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<div class="button-back-wrapper">
+  <a class="button-back" href="{{ site.baseurl }}/">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-home"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+    Powrót do strony głównej
+  </a>
+</div>

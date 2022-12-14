@@ -1,0 +1,17 @@
+.hero {
+  margin-bottom: -2px;
+  padding-top: 40px;
+  position: relative;
+  z-index: -1;
+
+  &-image {
+    width: 100%;
+    pointer-events: none;
+  }
+
+  @include media(">=tablet") {
+  }
+
+  @include media(">=desktop") {
+  }
+}
