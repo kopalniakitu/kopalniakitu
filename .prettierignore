@@ -1,0 +1,2 @@
+*.html
+# due to Prettier ignoring Liquid control flow tags
