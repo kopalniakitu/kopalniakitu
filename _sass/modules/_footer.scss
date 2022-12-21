@@ -8,14 +8,22 @@
   }
 
   &-copyright {
-    display: flex;
-    justify-content: center;
     margin-top: 40px;
     font-size: 14px;
     color: #646464;
 
-    p + p {
-      margin-left: 25px;
+    p:first-child {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 10px;
+
+      span + span {
+        margin-left: 10px;
+      }
+    }
+
+    p:nth-child(2) {
+      opacity: 0.5;
     }
 
     a {
