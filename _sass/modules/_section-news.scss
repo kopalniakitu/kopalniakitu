@@ -5,9 +5,21 @@
     border-radius: 10px;
   }
 
+  &-intro {
+    p {
+      white-space: pre-line;
+    }
+  }
+
   &-button-wrapper {
     margin-top: 30px;
     text-align: right;
+
+    .button {
+      &:nth-child(n + 2) {
+        margin-left: 20px;
+      }
+    }
   }
 
   h1 {
