@@ -7,14 +7,14 @@
     <section class="section-news -full">
       <div class="container">
         <div class="box">
-          <h2 class="box-small-heading">Aktualności / {{ page.date | date: "%-d.%m.%Y" }}</h2>
+          <h2 class="box-small-heading"><a href="/aktualnosci">Aktualności</a> / {{ page.date | date: "%-d.%m.%Y" }}</h2>
           <div class="box-columns">
             <div class="box-column">
               <h1>{{ title }}</h1>
               {{ content }}
             </div>
             <div class="box-column">
-              <img class="section-news-image" src="{{ site.baseurl }}/assets/img/news/janusz-kowalski.jpg" alt="">
+              <img class="section-news-image" src="{{ site.baseurl }}/assets/img/news/{{ page.image }}" alt="" loading="lazy">
             </div>
           </div>
         </div>
