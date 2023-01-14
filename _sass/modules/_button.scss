@@ -6,7 +6,6 @@
   overflow: hidden;
   padding: 0 24px;
   background-color: $dark-grey;
-  // border: 1px solid rgba($green, 0.2);
   border-radius: 5px;
   box-shadow: 0 2px 6px rgba(#000, 0.1);
   text-transform: uppercase;
@@ -36,10 +35,6 @@
     background-color: $light-green;
     border-radius: 12px;
     transition: 0.15s;
-
-    svg {
-      // transition: inherit;
-    }
   }
 
   &.-facebook {
@@ -48,7 +43,6 @@
     .button-icon {
       align-items: flex-end;
       background-color: $white;
-      // color: #346ee1;
 
       svg {
         position: relative;
@@ -62,25 +56,22 @@
   }
 
   &.-link {
-    // padding: 0;
-    // background: none;
-    // border: none;
-    // color: $green;
+    padding: 0;
+    background: none;
+    border: none;
+    box-shadow: none;
+    color: currentColor;
 
-    // &:hover {
-    //   color: $light-green;
-
-    //   .feather {
-    //     opacity: 1;
-    //   }
-    // }
+    &:hover {
+      background: none;
+      color: #808080;
+    }
   }
 
   &:hover {
     background-color: $green;
 
     .button-icon {
-      // transform: translateX(5px);
       background-color: $white;
       color: $green;
     }
@@ -89,12 +80,6 @@
   @include media("<tablet") {
     justify-content: space-between;
     width: 100%;
-  }
-
-  @include media(">=tablet") {
-    // height: 50px;
-    // padding: 0 35px;
-    // font-size: 12px;
   }
 }
 
