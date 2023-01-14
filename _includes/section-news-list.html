@@ -1,0 +1,28 @@
+<section class="section-news">
+  <div class="container">
+    {% for post in site.posts %}
+    <div class="box">
+      <div class="box-columns">
+        <div class="box-column">
+          <a href="{{ post.url | prepend: site.baseurl }}"><img class="section-news-image" src="{{ site.baseurl }}/assets/img/news/{{ post.image }}" alt="" loading="lazy"></a>
+        </div>
+        <div class="box-column">
+          <div class="section-news-intro">
+            <h2 class="box-small-heading">Aktualności / {{ post.date | date: "%-d.%m.%Y" }}</h2>
+            <h1><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
+            <p>{{ post.excerpt | newline_to_br }}</p>
+          </div>
+          <div class="section-news-button-wrapper">
+            <a class="button" href="{{ post.url | prepend: site.baseurl }}">
+              <span class="button-text">Czytaj dalej</span>
+              <span class="button-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
