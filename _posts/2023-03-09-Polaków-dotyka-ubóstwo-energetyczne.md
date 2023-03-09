@@ -2,7 +2,6 @@
 layout: post
 title: "SmogLab alarmuje: Polaków dotyka ubóstwo energetyczne."
 excerpt: "Piszecie do nas, czy czasem można na poważnie. Że tylko śmieszkujemy i to z całkiem poważnych tematów. Tak, bo taki był zamysł tego fanpage’a. Ale dobrze – ten post będzie na poważnie, bo i temat taki jest."
-
 "movie" value="https://www.youtube.com/watch?v=EAT_E0nPcvc"
 
 ---
