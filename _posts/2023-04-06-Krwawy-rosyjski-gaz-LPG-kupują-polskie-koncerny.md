@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Krwawy rosyjski gaz LPG kupują polskie koncerny"
+title: "Polskie koncerny nadal kupują rosyjski gaz LPG"
 excerpt: "Jak ten rząd coś powie to już powie i aby dotrzymać słowa, aż stanie na głowie 💪.
 Miało nie być obrotu ukraińskim zbożem w Polsce, a tylko tranzyt, wszyscy widzimy co było i być może nadal jest😳"
 image: "lpg.jpg"
