@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Cieszycie się?"
-excerpt: "Cieszycie się?"
+excerpt: "👏👏👏 To ten czas kiedy warto uruchomić nagranie rządowego klakiera - „jaka miła niespodzianka - dobra robota panie Obajtek" 🙈😀👏👏👏 (patrz - nasz filmik z 20.03. na naszych kanałach social media. Znajdziesz nas na Facebooku, Twitterze i TikToku)."
 image: "obajtek.jpg"
 ---
 
