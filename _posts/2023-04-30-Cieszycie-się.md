@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Cieszycie się?"
-excerpt: "Koncern multienergetyczny rozdaje hot-dogi i kawę na pocieszenie."
+excerpt: "Koncern multienergetyczny dorzuca jeszcze hot-dogi i kawę na pocieszenie."
 image: "obajtek.jpg"
 ---
 
