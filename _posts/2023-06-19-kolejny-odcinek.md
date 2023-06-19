@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Kolejny komiks z seri "Pan Bryłka i spółka"
+title: "Kolejny komiks z seri 'Pan Bryłka i spółka'"
 excerpt: "Cały komiks oraz wszystkie odcinki znajdzie na naszym Facebooku i Instagramie"
 image: "kadr1.jpg"
 ---
