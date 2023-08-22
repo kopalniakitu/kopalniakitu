@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "W Polsce nie opłaca się być 'eko'"
+title: "Rekompensaty za chaos"
 image: "rekompensaty.jpg"
 ---
 
