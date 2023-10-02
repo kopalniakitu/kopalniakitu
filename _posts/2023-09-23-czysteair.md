@@ -11,4 +11,4 @@ Miało być pięknie, wyszedł … 🤥🤥🤥 Pinokio🙈😉 W programie wybo
 
 💥 Z 3 milionów zrobiło się 500 tys. Co roku z powodu zanieczyszczenia powietrza umiera nawet 100 tysięcy Polaków😳 A kuku!!!!
 
-#KopalniaKitu Pokaż mniej
+#KopalniaKitu 
